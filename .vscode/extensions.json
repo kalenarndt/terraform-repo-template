@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "mindginative.terraform-snippets",
+    "editorconfig.editorconfig",
+    "hashicorp.sentinel",
+    "hashicorp.terraform",
+    "oderwat.indent-rainbow",
+    "usernamehw.errorlens",
+    "yzhang.markdown-all-in-one",
+    "davidanson.vscode-markdownlint",
+    "mohsen1.prettify-json",
+    "run-at-scale.terraform-doc-snippets",
+    "gruntfuggly.todo-tree",
+    "redhat.vscode-yaml",
+    "vscode-icons-team.vscode-icons",
+    "shd101wyy.markdown-preview-enhanced"
+  ]
+}
