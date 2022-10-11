@@ -4,7 +4,7 @@ This repository is intended to be used as a template for creating new Terraform 
 
 ## Actions
 
-A sample Github actions workflow is present in this repository. This will create a new release when you push a tag to any branch and this allwos for your module to sync with the Terraform registry / private registry.
+A sample Github actions workflow is present in this repository. This will create a new release when you push a tag to any branch and this allows for your module to sync with the Terraform registry / private registry.
 
 ## Usage
 - Clone the repo
