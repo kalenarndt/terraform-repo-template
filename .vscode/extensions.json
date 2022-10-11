@@ -1,11 +1,8 @@
 {
   "recommendations": [
-    "mindginative.terraform-snippets",
+    "pjmiravalle.terraform-advanced-syntax-highlighting",
     "editorconfig.editorconfig",
-    "hashicorp.sentinel",
-    "hashicorp.terraform",
     "oderwat.indent-rainbow",
-    "usernamehw.errorlens",
     "yzhang.markdown-all-in-one",
     "davidanson.vscode-markdownlint",
     "mohsen1.prettify-json",
