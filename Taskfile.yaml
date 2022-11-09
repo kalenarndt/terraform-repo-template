@@ -7,7 +7,7 @@ tasks:
     desc: Initialize workstation dependencies with Brew
     cmds:
       - brew install {{.DEPS}} {{.CLI_ARGS}}
-      - . /usr/local/opt/asdf/libexec/asdf.sh
+      - $SHELL $(brew --prefix asdf)/libexec/asdf.sh
       - task: asdf
       - task: pre-commit
     preconditions:
@@ -19,6 +19,7 @@ tasks:
       DEPS: >-
         asdf
         go-task/tap/go-task
+        pre-commit
 
   asdf:
     desc: Add asdf repos for dependencies and install the binaries
