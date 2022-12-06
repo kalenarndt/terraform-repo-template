@@ -4,7 +4,7 @@
   required_providers {
     vault = {
       source  = "hashicorp/vault"
-      version = "~>3.8.2"
+      version = "~> 3.11.0"
     }
     random = {
       source  = "hashicorp/random"
