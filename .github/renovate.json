@@ -26,5 +26,8 @@
   "commitBodyTable": true,
   "pre-commit": {
     "enabled": true
+  },
+  "asdf": {
+    "enabled": true
   }
 }
