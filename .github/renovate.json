@@ -18,7 +18,6 @@
     "workarounds:all"
   ],
   "platform": "github",
-  "repositories": ["kalenarndt/k3s-homelab"],
   "onboarding": false,
   "requireConfig": "optional",
   "dependencyDashboardTitle": "Renovate Dashboard 🤖",
