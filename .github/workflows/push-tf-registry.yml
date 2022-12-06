@@ -9,8 +9,8 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: ncipollo/release-action@v1
+      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # v3
+      - uses: ncipollo/release-action@18eadf9c9b0f226f47f164f5373c6a44f0aae169 # v1
         with:
           generateReleaseNotes: true
           name: 'v${{ github.ref_name }}'
