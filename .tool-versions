@@ -5,6 +5,6 @@ checkov 2.0.1218
 tfsec 1.26.0
 pre-commit 2.19.0
 python 3.11.1
-shfmt 3.5.1
+shfmt 3.6.0
 shellcheck 0.8.0
 vault 1.10.4
