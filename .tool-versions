@@ -6,5 +6,5 @@ tfsec 1.26.0
 pre-commit 2.19.0
 python 3.11.1
 shfmt 3.6.0
-shellcheck 0.8.0
+shellcheck 0.9.0
 vault 1.10.4
