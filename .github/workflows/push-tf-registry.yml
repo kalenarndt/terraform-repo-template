@@ -9,7 +9,7 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3
       - uses: ncipollo/release-action@a2e71bdd4e7dab70ca26a852f29600c98b33153e # v1
         with:
           generateReleaseNotes: true
