@@ -2,7 +2,7 @@ terraform 1.4.5
 terraform-docs 0.16.0
 tfupdate 0.6.5
 checkov 2.0.1218
-tfsec 1.26.0
+tfsec 1.28.1
 pre-commit 2.19.0
 python 3.11.3
 shfmt 3.6.0
