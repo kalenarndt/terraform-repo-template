@@ -44,7 +44,7 @@ repos:
         - --hook-config=--add-to-existing-file=true
         - --hook-config=--create-file-if-not-exist=true
 - repo: https://github.com/syntaqx/git-hooks
-  rev: v0.0.17
+  rev: v0.0.18
   hooks:
     - id: shfmt
       name: Check shell style with shfmt
