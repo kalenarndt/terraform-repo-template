@@ -25,7 +25,7 @@
       "fileMatch": ["(^|/)\\.tool-versions$", "(^|/)\\.rtx.toml$"],
       "enabled": true,
       "automerge": true
-    }
+    },
     "platform": "github",
     "onboarding": false,
     "requireConfig": "optional",
