@@ -1,0 +1,28 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+      "config:base",
+      ":semanticCommits",
+      ":enablePreCommit",
+      ":disableRateLimiting",
+      "github>kalenarndt/renovate-configs",
+      "helpers:pinGitHubActionDigests"
+    ],
+    "terraform": {
+      "fileMatch": ["\\.tf$", "\\.tfr$"]
+    },
+    "asdf": {
+      "fileMatch": [
+        "(^|/)\\.tool-versions$", (^|/)\\.rtx.toml$
+      ]
+    }
+    "platform": "github",
+    "onboarding": false,
+    "requireConfig": "optional",
+    "dependencyDashboardTitle": "Renovate Dashboard 🤖",
+    "suppressNotifications": ["prIgnoreNotification"],
+    "rebaseWhen": "conflicted",
+    "commitBodyTable": true,
+    "reviewersFromCodeOwners": true
+}
+

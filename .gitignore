@@ -35,9 +35,17 @@ override.tf.json
 
 # Ignore secrets file
 secrets.tfvars
+*.auto.tfvars
 
 # Ignores pre-commit hooks and editorconfig
-.editorconfig
-.pre-commit-config.yaml
+.DS_Store
+
+# Licenses
+*.rli
+*.hclic
+
+# Local Terraform Testing Folders
+local/*.tf
+
 
 # End of https://www.toptal.com/developers/gitignore/api/terraform
