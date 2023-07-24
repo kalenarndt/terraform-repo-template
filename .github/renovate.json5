@@ -17,6 +17,10 @@
       "enabled": true,
       "automerge": true
     },
+    "github-actions": {
+      "enabled": true,
+      "automerge": true
+    },
     "asdf": {
       "fileMatch": [
         "(^|/)\\.tool-versions$", (^|/)\\.rtx.toml$
