@@ -22,11 +22,9 @@
       "automerge": true
     },
     "asdf": {
-      "fileMatch": [
-        "(^|/)\\.tool-versions$", "(^|/)\\.rtx.toml$"
-      ]
-    "enabled": true,
-    "automerge": true
+      "fileMatch": ["(^|/)\\.tool-versions$", "(^|/)\\.rtx.toml$"]
+      "enabled": true,
+      "automerge": true
     }
     "platform": "github",
     "onboarding": false,
