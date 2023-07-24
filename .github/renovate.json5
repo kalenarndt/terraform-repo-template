@@ -23,7 +23,7 @@
     },
     "asdf": {
       "fileMatch": [
-        "(^|/)\\.tool-versions$", (^|/)\\.rtx.toml$
+        "(^|/)\\.tool-versions$", "(^|/)\\.rtx.toml$"
       ]
     "enabled": true,
     "automerge": true
