@@ -5,16 +5,24 @@
       ":semanticCommits",
       ":enablePreCommit",
       ":disableRateLimiting",
+      ":automergeDigest",
+      ":automergeBranch",
       "github>kalenarndt/renovate-configs",
       "helpers:pinGitHubActionDigests"
     ],
     "terraform": {
       "fileMatch": ["\\.tf$", "\\.tfr$"]
     },
+    "pre-commit": {
+      "enabled": true,
+      "automerge": true
+    },
     "asdf": {
       "fileMatch": [
         "(^|/)\\.tool-versions$", (^|/)\\.rtx.toml$
       ]
+    "enabled": true,
+    "automerge": true
     }
     "platform": "github",
     "onboarding": false,
