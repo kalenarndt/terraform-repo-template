@@ -1,9 +1,7 @@
 {
-  "config": {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-      "mergeConfidence:all-badges",
-      "config:recommended",
+      "config:base",
       ":semanticCommits",
       ":enablePreCommit",
       ":disableRateLimiting",
@@ -13,10 +11,7 @@
       "helpers:pinGitHubActionDigests"
     ],
     "terraform": {
-      "fileMatch": [
-        "\\.tf$",
-        "\\.tfr$"
-      ]
+      "fileMatch": ["\\.tf$", "\\.tfr$"]
     },
     "pre-commit": {
       "enabled": true,
@@ -27,10 +22,7 @@
       "automerge": true
     },
     "asdf": {
-      "fileMatch": [
-        "(^|/)\\.tool-versions$",
-        "(^|/)\\.rtx.toml$"
-      ],
+      "fileMatch": ["(^|/)\\.tool-versions$", "(^|/)\\.rtx.toml$"],
       "enabled": true,
       "automerge": true
     },
@@ -38,11 +30,9 @@
     "onboarding": false,
     "requireConfig": "optional",
     "dependencyDashboardTitle": "Renovate Dashboard 🤖",
-    "suppressNotifications": [
-      "prIgnoreNotification"
-    ],
+    "suppressNotifications": ["prIgnoreNotification"],
     "rebaseWhen": "conflicted",
     "commitBodyTable": true,
     "reviewersFromCodeOwners": true
-  }
 }
+
