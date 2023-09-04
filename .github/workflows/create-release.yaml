@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3
+        uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3
         with:
           persist-credentials: false
           fetch-depth: 0
-      - uses: ncipollo/release-action@a2e71bdd4e7dab70ca26a852f29600c98b33153e # v1
+      - uses: ncipollo/release-action@6c75be85e571768fa31b40abf38de58ba0397db5 # v1
         with:
           generateReleaseNotes: true
           name: '${{ github.ref_name }}'
