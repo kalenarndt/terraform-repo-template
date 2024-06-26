@@ -1,4 +1,4 @@
-terraform 1.8.5
+terraform 1.9.0
 terraform-docs 0.18.0
 pre-commit 3.7.1
 python 3.12.4
