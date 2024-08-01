@@ -1,6 +1,6 @@
-terraform 1.9.0
+terraform 1.9.3
 terraform-docs 0.18.0
-pre-commit 3.7.1
+pre-commit 3.8.0
 python 3.12.4
 shfmt 3.8.0
 shellcheck 0.10.0
