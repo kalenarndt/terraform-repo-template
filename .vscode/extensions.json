@@ -1,18 +1,9 @@
 {
   "recommendations": [
-    "pjmiravalle.terraform-advanced-syntax-highlighting",
+    "hashicorp.terraform",
     "editorconfig.editorconfig",
     "oderwat.indent-rainbow",
-    "yzhang.markdown-all-in-one",
-    "davidanson.vscode-markdownlint",
-    "mohsen1.prettify-json",
-    "gruntfuggly.todo-tree",
     "redhat.vscode-yaml",
-    "vscode-icons-team.vscode-icons",
-    "shd101wyy.markdown-preview-enhanced",
-    "aaron-bond.better-comments",
-    "github.vscode-pull-request-github",
-    "bierner.markdown-preview-github-styles",
-    "paulvarache.vscode-taskfile"
+    "aaron-bond.better-comments"
   ]
 }
