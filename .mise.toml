@@ -1,0 +1,11 @@
+[tools]
+terraform = "latest"
+terraform-docs = "latest"
+terraform-ls = "latest"
+pre-commit = "latest"
+
+[plugins]
+terraform = 'https://github.com/asdf-community/asdf-hashicorp'
+terraform-docs = 'https://github.com/looztra/asdf-terraform-docs'
+terraform-ls = 'https://github.com/asdf-community/asdf-hashicorp'
+pre-commit = 'https://github.com/jonathanmorley/asdf-pre-commit'

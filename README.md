@@ -10,9 +10,7 @@ A sample Github actions workflow is present in this repository. This will create
 - Clone the repo
 - Edit the readme and remove these instructions
 - Go through the optional portions if you want to use asdf and pre-commit (I recommend you use pre-commit)
-- **Optional** Edit the .tools-versions file with the releases that you want to use in the repository
-- **Optional** Install `go-task` if you don't have it already installed
-- **Optional** Run `task init` and this will install `asdf` and add the requried repositories and installed all of the tools outlined in `.tools-versions`
+
 
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

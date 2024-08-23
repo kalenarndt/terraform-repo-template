@@ -40,10 +40,6 @@ secrets.tfvars
 # Ignores pre-commit hooks and editorconfig
 .DS_Store
 
-# Licenses
-*.rli
-*.hclic
-
 # Local Terraform Testing Folders
 local/*.tf
 
